@@ -100,20 +100,22 @@ h1 {
 ***********************************/
 
  .section-two {
-height: 50vh;
+height: 400px;
 } 
 
-.para-div-two {
+/* .para-div-two {
     width: 70%;
-    margin: 0 auto;
+   
+    margin: auto;
     text-align: center;
-}
+} */
 
 .section-two-content {
     width: 60%;
-    padding-top: 10%;
-    height: 25vh;
-    margin: 0 auto;
+    line-height: 20px;
+  padding-top: 100px;
+   
+    margin: auto;
     text-align: center;
 }
 
@@ -169,14 +171,15 @@ height: 50vh;
 ***************************************************/
 
 .section-four {
-    height: 40vh;
+    height: 350px;
 }
 
 .section-four-content {
     width: 60%;
+    line-height: 20px;
     margin: auto;
     text-align: center;
-    padding-top: 9%;
+   margin-top: 150px;
    
 }
 
@@ -193,10 +196,11 @@ height: 50vh;
     width: 70%;
     margin: 0 auto;
     text-align: center;
+    vertical-align: middle;
 }
 
 /*************************************************** 
-                 SECTION FOOTER
+                 SECTION FIVE FOOTER
 ***************************************************/
 
 
@@ -217,7 +221,7 @@ height: 50vh;
 .content {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 93%;
     margin: 0 auto;
 }
 
@@ -245,7 +249,7 @@ color: black !important;
 }
 
 .group-one {
-    width: 130px;
+    width: 100px;
 
 }
 
@@ -254,13 +258,32 @@ color: black !important;
 }
 
 .icons {
-    margin: 5px;
+    /* margin: 5px; */
+    margin-bottom: 10px;
     display: flex; 
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 h6, h5 {
     margin: 0;
+    padding: 0;
+}
+
+hr {
+    width: 93%;
+    margin-bottom: 0;
+}
+
+.info-container {
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    width: 93%;
+    margin: auto;
+}
+
+.footer-logo {
+    height: 40px;
 }
 
